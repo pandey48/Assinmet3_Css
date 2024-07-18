@@ -1,0 +1,129 @@
+body{
+    background-color: beige;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    background-color: white;
+    
+    border: 10px solid red;
+    box-shadow: 5px 8px 2px purple;
+    text-shadow: 5px 5px 5px purple;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 300px;
+    text-align: center;
+    height: 200px;
+    font-style: italic;
+}
+img{height: 100px;
+width: 150px;}
+.main{
+    border: 10px solid rgb(0, 255, 55);
+    height: 800px;
+}
+.main1{
+    display: inline-block;
+    background-color: white;
+    border: 8px solid red;
+    box-shadow: 5px 5px 5px purple;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+   
+
+}
+.main2{
+    float: right;
+    width: 200px;
+    height: 150px;
+    border: 8px solid red;
+    box-shadow: 8px 10px 2px purple;
+    background-color: white;
+    padding-top: 75px;
+    border-radius: 10px;
+    
+
+}
+.main3{
+    display: inline-block;
+    width: 200px;
+    border: 8px solid red;
+    text-shadow: 2px 1px 2px purple;
+    box-shadow: 8px 10px 2px purple;
+    margin-top: 80px;
+
+    background-color: white;
+    border-radius: 10px;
+    height: 250;
+    
+
+}
+.main4{
+    float: right;
+    width: 200px;
+    border: 8px solid red;
+    text-shadow: 2px 1px 2px purple;
+    box-shadow: 8px 10px 2px purple;
+    margin: 2px;
+   
+   
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+}
+form{
+    text-align: center;
+    
+}
+.item{
+    background-color: green;
+    border: 10px solid purple;
+    margin: 30px 80px 30px 80px;
+    text-align: center;
+    font-style: italic;
+   
+}
+.item-menu{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 10px 10px 10px;
+    grid-template-areas: " col1 col2"
+                          " col3 col3" ;
+}
+.menu1{
+    background-color: yellow;
+    margin: 10px;
+    grid-area: col1;
+    
+
+}
+.menu2{
+    background-color: yellow;
+    margin: 10px;
+    grid-area: col2;
+}
+.menu3{
+    background-color: yellow;
+    grid-area: col3;
+}
+.offer{
+    font-style: italic;
+    position:fixed;
+    top: 530px;
+    left: 440px;
+    background-color: yellowgreen;
+    border: 8px solid red;
+    border-radius: 15px;
+    box-shadow: 8px 10px 2px purple;
+}
+.last{ display: inline-block;
+    
+margin: 0px 10px 70px 5px;}
+
